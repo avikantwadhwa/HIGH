@@ -33,6 +33,5 @@ function check_winner() {
             if (btn.innerText !== num.innerText)
                 f=false;
         }
-        if(f)
-            return true;
+        
    
