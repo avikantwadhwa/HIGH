@@ -35,4 +35,23 @@ function check_winner() {
         }
         if(f)
             return true;
+
+            for(j=7;j<10;j++)
+            {
+                f=true;
+                var num = document.getElementById(j.toString());
+                for(i=j-3;i>j-7;j--)
+                {
+                    var btn = document.getElementById(i.toString());
+                    if (btn.innerText !== num.innerText)
+                        f=false;   
+                }
+                if(f)
+                    return true;
+            }
+        
+            for(j=7;j<10;j++)
+            {
+        
+            }
    
