@@ -58,6 +58,6 @@ function check_winner() {
     var num = document.getElementById('7');
     var btn = document.getElementById('8');
     var val = document.getElementById('9');
-    if (num.innerText !== "" && num.innerText === btn.innerText && btn.innerText == val.innerText)
+    if (num.innerText !== "" && num.innerText === btn.innerText)
         return true;
     }
