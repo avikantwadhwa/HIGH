@@ -21,7 +21,7 @@ function HandleClick(btnval) {
 
 }
 
-}
+
 
 function check_winner() {
     var i = 0,f=true,j;
