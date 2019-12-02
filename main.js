@@ -1,3 +1,5 @@
+import { getDefaultSettings } from "http2";
+
 function start() {
     document.turn = 'X';
 }
@@ -66,3 +68,4 @@ function delay(seconds) {
         setTimeout(resolve, 1000 * seconds)
     })
 }
+delay(4).then(()=>getDefaultSettings)
