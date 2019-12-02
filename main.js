@@ -61,9 +61,8 @@ function check_winner() {
     if (num.innerText !== "" && num.innerText === btn.innerText && btn.innerText == val.innerText)
         return true;
     }
-    function delay(seconds) {
-        return new Promise(resolve => {
-            setTimeout(resolve, seconds)
-        })
-    }
-    
+function delay(seconds) {
+    return new Promise(resolve => {
+        setTimeout(resolve, 1000 * seconds)
+    })
+}
