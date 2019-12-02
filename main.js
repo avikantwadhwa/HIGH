@@ -63,7 +63,7 @@ function check_winner() {
     }
     function delay(seconds) {
         return new Promise(resolve => {
-            setTimeout(resolve, 1000 * seconds)
+            setTimeout(resolve, seconds)
         })
     }
     
