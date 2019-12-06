@@ -73,9 +73,9 @@ delay(4).then(()=>getDefaultSettings)
 function delay2(seconds) {
         return new Promise((resolve, reject) => {
             if (Math.random() < 0.5) {
-               
+                setTimeout(() => resolve('Resolved'), 1000 * seconds)
             } else {
-                
+                reject('Error')
     
             }
     
