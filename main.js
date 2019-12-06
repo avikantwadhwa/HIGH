@@ -69,3 +69,16 @@ function delay(seconds) {
     })
 }
 delay(4).then(()=>getDefaultSettings)
+
+function delay2(seconds) {
+        return new Promise((resolve, reject) => {
+            if (Math.random() < 0.5) {
+               
+            } else {
+                
+    
+            }
+    
+        })
+    }
+    
