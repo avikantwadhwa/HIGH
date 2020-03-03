@@ -10,4 +10,5 @@
         bind("dragend", function() {
             $target.removeClass('drag-over');
             return false;
-        }).
+        })
+    }})
